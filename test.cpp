@@ -1,11 +1,7 @@
 #include<stdio.h>
 
 int main(){
-	printf("hello world!");
+	printf("test ipad");
+	printf("test keyboard");
 	printf("test no swapfile");
-}
-
-
-void awen(){
-	
 }
