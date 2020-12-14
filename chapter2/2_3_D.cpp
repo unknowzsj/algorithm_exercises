@@ -1,9 +1,9 @@
 #include<stdio.h>
 
 int main(){
-	double a,b,c,max;
+	int a,b,c,max;
 	
-	scanf("%lf%lf%lf",&a,&b,&c);
+	scanf("%d%d%d",&a,&b,&c);
 	
 	max=a;
 	if(b>max)
@@ -11,5 +11,5 @@ int main(){
 	if(c>max)
 		max=c;
 		
-	printf("%0.2f",max);
+	printf("%d",max);
 }
